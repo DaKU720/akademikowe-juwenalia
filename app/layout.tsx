@@ -13,8 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elo",
+  title: "Ustronalia 2025",
   description: "Kozacki opis",
+    creator: "Kamys.dev",
+    // icons: "/images/"
 };
 
 export default function RootLayout({

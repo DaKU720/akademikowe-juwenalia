@@ -1,5 +1,6 @@
 import EventPage from "@/app/elements/EventSection/page";
 import Hero from "@/app/elements/HeroSection/page"
+import Footer from "@/app/elements/Footer/page"
 
 const Homepage = () => {
     return (
@@ -7,6 +8,8 @@ const Homepage = () => {
             <div>
                 <Hero />
                 <EventPage />
+
+                <Footer />
             </div>
         </>
     )
