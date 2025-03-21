@@ -137,7 +137,7 @@ const Hero = () => {
                             </motion.h1>
                         </div>
 
-                        <div className="flex justify-center items-center gap-6 mt-5">
+                        <div className="flex md:flex-row flex-col items-center text-center justify-center md:gap-6 gap-4 mt-6">
                             {/* Przyciski */}
                             <motion.button
                                 whileHover={{ scale: 1.1 }}
@@ -159,6 +159,7 @@ const Hero = () => {
                                 <IoMdPhotos size={30} className="mr-2" />
                                 Zdjęcia
                             </motion.button>
+
                         </div>
                     </div>
                 </div>
