@@ -5,7 +5,7 @@ import { IoMdPhotos } from "react-icons/io";
 
 const EventPage = () => {
     return (
-        <div id="event" className="min-h-screen flex flex-col md:flex-row bg-black text-white">
+        <div id="event" className="min-h-screen flex flex-col md:flex-row bg-black text-[#ffe8e8]">
             {/* Sekcja tekstowa po lewej */}
             <div className="w-full md:w-1/2 flex flex-col justify-center items-start text-left p-6 md:p-12 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-[#e04587] tracking-widest uppercase">
@@ -24,7 +24,7 @@ const EventPage = () => {
                 </p>
 
                 <button
-                    className="flex items-center bg-[#e04587] text-white text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
+                    className="flex items-center bg-[#e04587] text-[#ffe8e8] text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
                     onClick={() => window.open('mailto:davidkamys@yahoo.com', '_blank', 'noopener,noreferrer')}
                 >
                     <IoMdPhotos size={30} className="mr-2" />

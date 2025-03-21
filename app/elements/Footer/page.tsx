@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import {FaLinkedin, FaGithub, FaEnvelope} from "react-icons/fa";
+import {FaInstagram, FaEnvelope, FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -30,31 +30,31 @@ const Footer = () => {
                     />
 
                     {/* Linki nawigacyjne */}
-                    <nav className=" text-white flex space-x-6 mt-4 md:mt-0">
+                    <nav className=" text-[#ffe8e8] flex space-x-6 mt-4 md:mt-0">
                         <Link href="/" className="hover:text-[#e04587] transition">
-                            Home
+                            Strona Główna
                         </Link>
                         <Link href="/portfolio/category" className="hover:text-[#e04587] transition">
-                            Portfolio
-                        </Link>
-                        <Link href="/blog" className="hover:text-[#e04587] transition">
-                            Blog
-                        </Link>
-                        <Link href="/about" className="hover:text-[#e04587] transition">
-                            About
+                            Wydarzenie
                         </Link>
                         <Link href="/contact" className="hover:text-[#e04587] transition">
-                            Contact
+                            Kontakt
                         </Link>
                     </nav>
                 </div>
 
                 {/* Social Media i prawa autorskie */}
-                <div className="flex flex-col md:flex-row justify-between items-center border-t text-white border-gray-700 mt-6 pt-6">
+                <div className="flex flex-col md:flex-row justify-between items-center border-t text-[#ffe8e8] border-gray-700 mt-6 pt-6">
                     {/* Social Media */}
                     <div className="flex space-x-4">
                         <a href="mailto:davidkamys@yahoo.com" target="_blank" rel="noopener noreferrer">
                             <FaEnvelope size={20} className="hover:text-[#e04587] transition"/>
+                        </a>
+                        <a href="mailto:davidkamys@yahoo.com" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram size={20} className="hover:text-[#e04587] transition"/>
+                        </a>
+                        <a href="mailto:davidkamys@yahoo.com" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook size={20} className="hover:text-[#e04587] transition"/>
                         </a>
                     </div>
 

@@ -53,7 +53,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className="relative w-full min-h-screen h-screen text-white flex flex-col items-center justify-center overflow-hidden">
+            <div className="relative w-full min-h-screen h-screen text-[#ffe8e8] flex flex-col items-center justify-center overflow-hidden">
                 {/* Tło YouTube */}
                 <div className="absolute top-0 left-0 w-full h-full">
                     <div className="absolute top-1/2 left-1/2 w-[177.78vh] h-[100vh] -translate-x-1/2 -translate-y-1/2">
@@ -98,7 +98,7 @@ const Hero = () => {
                         </button>
                         <nav className="flex flex-col gap-5 text-center">
                             <button
-                                className="flex items-center bg-[#e04587] text-white text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
+                                className="flex items-center bg-[#e04587] text-[#ffe8e8] text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
                                 onClick={() => {
                                     scrollToEvent();
                                     setMenuOpen(false);
@@ -133,7 +133,7 @@ const Hero = () => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ type: "spring", stiffness: 50, damping: 10, delay: 0.4 }}
                             >
-                                <span className="text-white">Juwenalia w Naszym Akademiku!</span>
+                                <span className="text-[#ffe8e8]">Juwenalia w Naszym Akademiku!</span>
                             </motion.h1>
                         </div>
 
@@ -143,7 +143,7 @@ const Hero = () => {
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.97 }}
                                 transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                className="flex items-center bg-[#e04587] text-white text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
+                                className="flex items-center bg-[#e04587] text-[#ffe8e8] text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
                                 onClick={scrollToEvent} // Funkcja przewijania do sekcji #event
                             >
                                 <MdEvent size={30} className="mr-2" />
@@ -153,8 +153,8 @@ const Hero = () => {
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.97 }}
                                 transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                className="flex items-center bg-[#e04587] text-white text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
-                                onClick={() => window.open('mailto:davidkamys@yahoo.com', '_blank', 'noopener,noreferrer')}
+                                className="flex items-center bg-[#e04587] text-[#ffe8e8] text-xl font-extrabold rounded-full px-6 py-3 transition-all duration-300 hover:bg-black hover:text-[#e04587] hover:shadow-md"
+                                link="ht"
                             >
                                 <IoMdPhotos size={30} className="mr-2" />
                                 Zdjęcia
